@@ -68,6 +68,11 @@ body {
 	@apply bg-gradient-to-bl from-cornflowerBlue to-pinkRed;
 }
 
+/* felt like naming it bloom for some reason */
+.gradient-bloom{
+  @apply from-iris-100 to-fuschia-90 bg-gradient-to-r;
+}
+
 .animate-gradient {
 	background-size: 250% 250%;
 	-webkit-animation: loop 4s ease infinite;

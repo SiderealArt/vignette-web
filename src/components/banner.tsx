@@ -8,9 +8,8 @@ const Banner: React.FC<{
 }> = ({ open, setOpen }) => {
   return (
     <div
-      className={`from-iris-100 to-fuschia-90 bg-gradient-to-r w-full z-80 absolute top-0 transition duration-200 md:fixed ${
-        open ? `md:opacity-95 opacity-100` : ` opacity-0 z-40`
-      }`}
+      className={`gradient-bloom w-full z-80 absolute top-0 transition duration-200 md:fixed ${open ? `md:opacity-95 opacity-100` : ` opacity-0 z-40`
+        }`}
     >
       <div className="max-w-7xl mx-auto py-3 px-3 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between flex-wrap">
